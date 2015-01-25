@@ -1,0 +1,61 @@
+body {
+	margin: 0px;
+	background-color: #E0E0E0;
+}
+
+.head {
+	width: 100%;
+	height: 50px;
+	background-color: black;
+}
+
+.content {
+	background-color: #fff;
+	width: 80%;
+	height: 1200px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.search {
+	margin-left: 20px;
+}
+
+.search .text {
+	width: 550px;
+	height: 37px;
+	border-radius: 8 3 3 8;
+	font-size: 14px;
+	border: 1px solid #E0E0E0;
+}
+
+.search .btn {
+	height: 35px;
+	width: 80px;
+	border: 0px;
+	border-radius: 3 8 8 3;
+	background-color: #5bc0de;
+	color: white;
+	font-size: 14px;
+}
+
+.data {
+	margin-left: 20px;
+}
+
+.data table {
+	margin-top: 20px;
+}
+
+.data td {
+	padding: 6px;
+}
+
+.data .title {
+	font-size: 22px;
+	color: blue;
+}
+
+.data .other {
+	color: green;
+}
