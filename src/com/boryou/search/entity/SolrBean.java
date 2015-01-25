@@ -89,4 +89,11 @@ public class SolrBean {
 		this.url = url;
 	}
 
+	@Override
+	public String toString() {
+		return "SolrBean id=" + id + ", title=" + title + ", author=" + author
+				+ ", text=" + text + ", time=" + time + ", host=" + host
+				+ ", url=" + url + "\r\n";
+	}
+	
 }

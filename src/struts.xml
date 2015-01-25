@@ -6,7 +6,7 @@
 	<package name="default" extends="struts-default" namespace="/">
 		<action name="SearchAction_*"
 			class="com.boryou.search.action.SearchAction" method="{1}">
-			<result name="success">/data.jsp</result>
+			<result name="success">/search.jsp</result>
 			<result name="fail">/fail.jsp</result>
 		</action>
 	</package>
