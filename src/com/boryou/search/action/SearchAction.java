@@ -76,7 +76,7 @@ public class SearchAction extends ActionSupport {
 		if (param.getKeyword().equals("")) {
 			query.setQuery("*:*");
 		} else {
-			query.add("q", "text:" + param.getKeyword());
+			query.add("q", "title_text:" + param.getKeyword());
 
 			// 开启高亮功能
 			query.setHighlight(true);
