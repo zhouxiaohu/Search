@@ -19,6 +19,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
+	<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
 	<style type="text/css">
 		.content{
 			margin: 0px auto;

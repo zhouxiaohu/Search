@@ -12,8 +12,9 @@ body {
 .content {
 	background-color: #fff;
 	width: 80%;
-	height: 1200px;
 	margin: 0 auto;
+	margin-bottom: 20px; padding-top : 20px;
+	border-radius: 0 0 10 10;
 	padding-top: 20px;
 }
 
@@ -39,6 +40,16 @@ body {
 	font-size: 14px;
 }
 
+.result {
+	padding-left:30px;
+	font-size:12px;
+	color:grey;
+}
+
+.result font {
+	color: red;
+}
+
 .data {
 	margin-left: 20px;
 }
@@ -58,4 +69,41 @@ body {
 
 .data .other {
 	color: green;
+}
+
+.page {
+	margin-top: 20px;
+	margin-left: 24px;
+	width: 800px;
+}
+
+.page font {
+	color: #214382;
+}
+
+.page a {
+	color: #214382;
+	text-decoration: none;
+}
+
+.page .pageLeft {
+	width: 50%;
+}
+
+.page .pageRight {
+	width: 50%;
+	padding-right: 0px;
+	text-align: right;
+}
+
+.foot {
+	width: 100%;
+	height: 30px;
+	padding-top: 15px;
+	padding-left: 28px;
+	padding-bottom: 10px;
+}
+
+.foot span {
+	font-size: 14px;
 }

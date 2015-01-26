@@ -16,6 +16,9 @@ package com.boryou.search.constant;
  */
 public class Constant {
 
-	// 索引存储位置
+	// 索引服务器
 	public static final String SOLR_SERVER_URL = "http://localhost:9090/solr";
+
+	// 每页显示数据条数
+	public static final int PAGE_SIZE = 10;
 }
